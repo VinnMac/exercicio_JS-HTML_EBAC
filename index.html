@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagens V</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Viagens V</h1>
+        <h2>SP - RJ</h2>
+        <h3>Selecione o período de viagem:</h3>
+        <form id="form-data">
+            <div class="data">
+                <label for="data-inicio">Ida:</label>
+                <input type="date" id="data-inicio" required />
+                <label for="data-final">Volta:</label>
+                <input type="date" id="data-final" required />
+            </div>
+            <p class="validacao"></p>
+            <div class="botao">
+                <button type="submit">Filtrar por período</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
